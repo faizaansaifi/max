@@ -1,6 +1,96 @@
 .App{
-  h1{
-    color: rgba(131, 130, 130, 0.8);
-    background: var(--color-error);
+  body{
+    transition: opacity .5s ease;
+  }
+  a{
+    text-decoration: none;
+    color: var(--footer-header);
+    transition: 0.5s ease-in-out;
+    &:hover{
+      color: var(--color-error);
+    }
+  }
+  ul{
+    padding-left: 0;
+  }
+  //.main-container{
+  //  padding: ;
+  //}
+  .card-layout{
+    ul{
+      li{
+        box-shadow: 1px 1px 15px #ccc;
+        transition: 0.2s ease-in-out;
+        &:hover{
+          transform: translateY(15px);
+        }
+        .header{
+          color: var(--color-error);
+          transition: 0.5s ease-in-out;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          &:hover{
+            color: var(--color-black)
+          }
+        }
+      }
+    }
+  }
+  .home{
+    .self-ad {
+      background-color: var(--color-error);
+      color: var(--color-white);
+      ul{
+        transition: opacity 0.5s ease;
+        li{
+          margin: 0 2rem;
+          h6{
+            font-size: 1.25rem;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  .applications{
+    ul {
+      li{
+        width: 25%;
+        overflow: hidden;
+        .article-1{
+          background-image: url("../public/images/shop-glass1.webp");
+          height: 300px;
+          cursor: pointer;
+          background-position: center;
+          background-size: cover;
+          overflow: hidden;
+          -webkit-transition: all 0.3s ease-in-out;
+          &:hover{
+            transform: scale(1.1);
+            -webkit-transition: all 0.3s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+  footer{
+    background-color: #202020;
+    .upper-footer{
+      ul li{
+        h3{
+          color: var(--footer-header)
+        }
+        p{
+          color: var(--color-white);
+          word-spacing: 0.5rem;
+        }
+      }
+    }
+    .lower-footer{
+      background-color: #00000040;
+      p{
+        color: var(--color-white)
+      }
+    }
   }
 }
