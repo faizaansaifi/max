@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import SimpleSlider from "../common/Slider";
 
 const Home = () => {
     return(
@@ -30,6 +31,9 @@ const Home = () => {
                         <h6> Comes with thermal insulation Properties</h6>
                     </li>
                 </ul>
+            </section>
+            <section>
+                <SimpleSlider />
             </section>
             <section className='card-layout container'>
                 <ul className='flex flex-wrap justify-between'>
