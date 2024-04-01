@@ -5,29 +5,31 @@ export default function SimpleSlider() {
     var settings = {
         dots: true,
         infinite: true,
-        speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplaySpeed: 2000,
+        autoplay: true,
+        arrows: true,
     };
     return (
         <Slider {...settings}>
             <div>
-                <h3>1</h3>
+               <img src="/images/slide1" alt='slide1'/>
             </div>
             <div>
-                <h3>2</h3>
+                <img src="/images/slide2" alt='slide2'/>
             </div>
             <div>
-                <h3>3</h3>
+                <img src="/images/slide3" alt='slide3'/>
             </div>
             <div>
-                <h3>4</h3>
+                <img src="/images/slide4" alt='slide4'/>
             </div>
             <div>
-                <h3>5</h3>
+                <img src="/images/slide5" alt='slide5'/>
             </div>
             <div>
-                <h3>6</h3>
+                <img src="/images/slide6" alt='slide6'/>
             </div>
         </Slider>
     );

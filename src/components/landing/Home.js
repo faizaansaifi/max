@@ -4,34 +4,34 @@ import SimpleSlider from "../common/Slider";
 
 const Home = () => {
     return(
-        <div className="home">
-            <section className="self-ad text-center pt-16 px-28 pb-36">
-                <h2>Max Glass</h2>
-                <h4>FROM THE HOUSE OF MAX GLASS INDUSTRIES</h4>
-                <p>Check out the amazing properties of toughened glass processed from the house of Max Glass Industries,
-                    the first ISI – 2553 Part 1 Certified glass factory in North India.</p>
-                <ul className='flex text-left justify-center mt-8'>
-                    <li>
-                        <h6> Our modified toughened glass is fire resistant</h6>
-                    </li>
-                    <li>
-                        <h6> We offer reliable smart glass for privacy
-                    </h6>
-                    </li>
-                    <li>
-                        <h6> Special technology increases light transmittance</h6>
-                    </li>
-                    <li>
-                        <h6> Special acoustic property delivers sound reduction</h6>
-                    </li>
-                    <li>
-                        <h6> Increased strength and safety characteristics</h6>
-                    </li>
-                    <li>
-                        <h6> Comes with thermal insulation Properties</h6>
-                    </li>
-                </ul>
-            </section>
+        <div className="home w-full">
+            {/*<section className="self-ad text-center pt-16 px-28 pb-36">*/}
+            {/*    <h2>Max Glass</h2>*/}
+            {/*    <h4>FROM THE HOUSE OF MAX GLASS INDUSTRIES</h4>*/}
+            {/*    <p>Check out the amazing properties of toughened glass processed from the house of Max Glass Industries,*/}
+            {/*        the first ISI – 2553 Part 1 Certified glass factory in North India.</p>*/}
+            {/*    <ul className='flex text-left justify-center mt-8'>*/}
+            {/*        <li>*/}
+            {/*            <h6> Our modified toughened glass is fire resistant</h6>*/}
+            {/*        </li>*/}
+            {/*        <li>*/}
+            {/*            <h6> We offer reliable smart glass for privacy*/}
+            {/*        </h6>*/}
+            {/*        </li>*/}
+            {/*        <li>*/}
+            {/*            <h6> Special technology increases light transmittance</h6>*/}
+            {/*        </li>*/}
+            {/*        <li>*/}
+            {/*            <h6> Special acoustic property delivers sound reduction</h6>*/}
+            {/*        </li>*/}
+            {/*        <li>*/}
+            {/*            <h6> Increased strength and safety characteristics</h6>*/}
+            {/*        </li>*/}
+            {/*        <li>*/}
+            {/*            <h6> Comes with thermal insulation Properties</h6>*/}
+            {/*        </li>*/}
+            {/*    </ul>*/}
+            {/*</section>*/}
             <section>
                 <SimpleSlider />
             </section>
