@@ -1,0 +1,42 @@
+.applications {
+	ul li {
+		width: 400px;
+		height: 700px;
+		overflow: hidden;
+		&:hover {
+			// filter: brightness(75%);
+		}
+		a {
+			display: inline-block;
+			width: 400px;
+			height: 700px;
+			background-size: 100%;
+			transition: all 0.2s ease-in-out;
+			position: relative;
+			&:hover {
+				background-size: 110%;
+			}
+			article {
+				position: absolute;
+				bottom: 20px;
+				z-index: 2;
+				color: var(--color-white);
+			}
+			&:after {
+				content: '01';
+				color: transparent;
+				font-size: 300px;
+				line-height: 1em;
+				font-family: 'Magra', serif;
+				font-family: serif;
+				font-weight: 700;
+				-webkit-text-stroke: 2px #fff;
+				margin: 0;
+				position: absolute;
+				z-index: 2;
+				top: -30px;
+				right: 20px;
+			}
+		}
+	}
+}
