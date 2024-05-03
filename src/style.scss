@@ -11,4 +11,15 @@
 			color: var(--theme-color-blue);
 		}
 	}
+
+	.red-button {
+		background-color: var(--theme-color-red);
+		padding: 1rem 1.5rem;
+		color: var(--color-white);
+		font-weight: 600;
+		transition: all 0.2s ease-in-out;
+		&:hover {
+			background-color: var(--theme-color-blue);
+		}
+	}
 }

@@ -11,7 +11,7 @@ function Header() {
 	}
 
 	return (
-		<div className="header bg-white z-10  flex justify-between items-center w-full py-2">
+		<div className="header bg-white z-10  flex justify-between items-center w-full">
 			<Link
 				to="/"
 				className="logo w-24">

@@ -1,7 +1,6 @@
 import * as React from 'react'
 
 import { Link, Route, Routes } from 'react-router-dom'
-
 import Home from './components/landing/Home'
 import About from './pages/About'
 import SimpleSlider from './components/common/Carousel'
